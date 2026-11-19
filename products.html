@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products | Greenfield International School</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">G</span>
+        <span>GREENFIELD<small>INTERNATIONAL SCHOOL</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="main-nav">
+        <div class="nav-links">
+          <a href="index.html">Home1</a>
+          <a href="home2.html">Home2</a>
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="admissions.html">Admissions</a>
+          <a class="active" href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme aria-label="Toggle theme" title="Toggle theme">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </button>
+          <button class="icon-btn" data-rtl aria-label="Toggle RTL" title="Toggle RTL">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 3l4 4-4 4"></path><path d="M20 7H4"></path><path d="M8 21l-4-4 4-4"></path><path d="M4 17h16"></path></svg>
+          </button>
+          <a class="btn btn-primary btn-nav login-link" href="login.html">Sign in</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Centered Hero -->
+    <section class="page-hero page-hero-products">
+      <div class="container">
+        <span class="eyebrow light">GREENFIELD CBSE CAMPUS STORE</span>
+        <h1>School essentials crafted<br><em>for every CBSE learner.</em></h1>
+        <p>Official NCERT textbook bundles, crested school uniforms, STEM robotics kits, practical lab sets, and art studio packs curated grade-by-grade.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#catalog">Browse CBSE kits ↗</a>
+          <a class="btn btn-glass" href="contact.html">Request bulk or grade order</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CBSE School Products Catalog -->
+    <section id="catalog" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">CURATED FOR 2026–27</span>
+            <h2>Official CBSE School<br><em>Kits &amp; Learning Products.</em></h2>
+          </div>
+          <p class="heading-note">Every bundle follows official NCERT &amp; Greenfield CBSE campus specifications with transparent pricing.</p>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Filter CBSE school products">
+          <button type="button" class="filter-pill active" data-filter="all">All Essentials</button>
+          <button type="button" class="filter-pill" data-filter="books">CBSE Textbooks</button>
+          <button type="button" class="filter-pill" data-filter="uniforms">Uniforms &amp; Gear</button>
+          <button type="button" class="filter-pill" data-filter="labs">STEM &amp; Labs</button>
+          <button type="button" class="filter-pill" data-filter="arts">Arts &amp; Stationery</button>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card" data-category="books">
+            <img src="https://plus.unsplash.com/premium_photo-1669652639337-c513cc42ead6?auto=format&fit=crop&w=900&q=85" alt="CBSE NCERT textbooks and notebooks stack">
+            <div class="card-body">
+              <span class="number">TEXTBOOKS · GRADES I–XII</span>
+              <h3>Complete CBSE NCERT Textbook &amp; Workbook Bundle</h3>
+              <p>Edition-verified NCERT textbooks, Greenfield practice workbooks, and ruled class notebooks neatly packed per grade.</p>
+              <div class="card-footer-cta">
+                <div class="price-tag">₹2,450<small>Full grade set</small></div>
+                <a class="btn btn-primary" href="contact.html">Reserve kit ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="uniforms">
+            <img src="https://images.pexels.com/photos/35995763/pexels-photo-35995763.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Students wearing Greenfield CBSE school uniforms">
+            <div class="card-body">
+              <span class="number">UNIFORMS · ALL GRADES</span>
+              <h3>Official Crest Blazer, Shirt &amp; House Uniform Set</h3>
+              <p>Breathable cotton-blend summer uniform, navy blazer with woven school emblem, tie, belt, and Wednesday house sportswear.</p>
+              <div class="card-footer-cta">
+                <div class="price-tag">₹3,200<small>Complete 3-piece kit</small></div>
+                <a class="btn btn-primary" href="contact.html">Order size ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="labs">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=85" alt="CBSE STEM robotics and electronics lab kit">
+            <div class="card-body">
+              <span class="number">STEM &amp; ATL · GRADES IV–X</span>
+              <h3>Atal Tinkering Robotics &amp; Coding Starter Kit</h3>
+              <p>Microcontroller board, ultrasonic sensors, chassis, jumper wires, and step-by-step CBSE STEM project workbook.</p>
+              <div class="card-footer-cta">
+                <div class="price-tag">₹1,950<small>Includes lab guide</small></div>
+                <a class="btn btn-primary" href="contact.html">Book kit ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="labs">
+            <img src="https://images.pexels.com/photos/3735741/pexels-photo-3735741.jpeg?auto=compress&cs=tinysrgb&w=900" alt="CBSE Senior Science laboratory coat and glassware kit">
+            <div class="card-body">
+              <span class="number">SCIENCE LAB · GRADES IX–XII</span>
+              <h3>CBSE Practical Coat, Safety &amp; Lab Record Kit</h3>
+              <p>100% cotton laboratory apron, safety eyewear, Physics &amp; Chemistry CBSE practical manuals, and graph record books.</p>
+              <div class="card-footer-cta">
+                <div class="price-tag">₹1,350<small>Lab-verified pack</small></div>
+                <a class="btn btn-primary" href="contact.html">Order pack ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="arts">
+            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=85" alt="School visual arts sketching and watercolor kit">
+            <div class="card-body">
+              <span class="number">ARTS &amp; CRAFT · GRADES I–X</span>
+              <h3>Visual Arts, Sketchbook &amp; Precision Geometry Studio</h3>
+              <p>Heavyweight A3 sketchbook, artist watercolors, pastel crayons, brushes, and full metal geometry box for Math &amp; Art.</p>
+              <div class="card-footer-cta">
+                <div class="price-tag">₹890<small>24-piece studio kit</small></div>
+                <a class="btn btn-primary" href="contact.html">Select kit ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="uniforms">
+            <img src="https://images.pexels.com/photos/37580640/pexels-photo-37580640.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Ergonomic school backpacks and student study gear">
+            <div class="card-body">
+              <span class="number">CAMPUS GEAR · ALL GRADES</span>
+              <h3>Ergonomic School Backpack &amp; Stationery Combo</h3>
+              <p>Padded spine-support backpack in royal navy, insulated steel bottle, school almanac, and eco-friendly pencil pouch.</p>
+              <div class="card-footer-cta">
+                <div class="price-tag">₹1,650<small>1-year warranty</small></div>
+                <a class="btn btn-primary" href="contact.html">Reserve bag ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlight Band -->
+    <section class="highlight-band">
+      <div class="container highlight-layout">
+        <div>
+          <span class="eyebrow light">ALL-IN-ONE CONVENIENCE</span>
+          <h2>Pre-packed per grade.<br><em>Ready before day one.</em></h2>
+          <p>Parents never need to hunt across bookstores. Reserve your child's exact NCERT book set, uniform bundle, and lab kit directly through Greenfield Campus Store.</p>
+          <ul class="highlight-list">
+            <li>100% latest CBSE NCERT &amp; NEP 2020 syllabus editions</li>
+            <li>Easy size exchanges at the school store counter</li>
+            <li>Home courier delivery or zero-wait campus pickup</li>
+          </ul>
+          <a class="btn btn-gold" href="contact.html">Enquire with campus store ↗</a>
+        </div>
+        <div class="highlight-image">
+          <img src="https://images.pexels.com/photos/8617992/pexels-photo-8617992.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Neatly organized school notebooks and stationery supplies">
+          <div class="image-caption">Verified CBSE Booklists · Grades Nursery to XII</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Distribution & Support Guidelines (4 Cards) -->
+    <section class="section soft-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">HOW CAMPUS DISTRIBUTION WORKS</span>
+            <h2>Simple ordering for<br><em>every Greenfield family.</em></h2>
+          </div>
+          <p class="heading-note">Clear grade checklists and smooth campus pickup slots prior to term opening.</p>
+        </div>
+
+        <div class="pillars-grid">
+          <article>
+            <img src="https://plus.unsplash.com/premium_photo-1669652639356-f5cb1a086976?auto=format&fit=crop&w=700&q=85" alt="Stacked academic textbooks sorted by grade">
+            <div class="pillar-body">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h3>Grade-Wise Bundling</h3>
+              <p>Select your child's CBSE grade and third-language option to receive a single verified checklist.</p>
+              <a class="text-link" href="academics.html">See subjects ↗</a>
+            </div>
+          </article>
+
+          <article>
+            <img src="https://images.pexels.com/photos/5445610/pexels-photo-5445610.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Quality-checked school stationery and supplies">
+            <div class="pillar-body">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <h3>Quality Verified</h3>
+              <p>High-GSM paper notebooks, durable stitching, and child-safe lab &amp; art instruments.</p>
+              <a class="text-link" href="#catalog">View catalog ↗</a>
+            </div>
+          </article>
+
+          <article>
+            <img src="https://images.pexels.com/photos/36048039/pexels-photo-36048039.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Organized student study kit desk">
+            <div class="pillar-body">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+              </div>
+              <h3>Campus Pick-Up</h3>
+              <p>Collect packed bundles directly from Block B Campus Store or opt for doorstep delivery.</p>
+              <a class="text-link" href="contact.html">Store hours ↗</a>
+            </div>
+          </article>
+
+          <article>
+            <img src="https://images.pexels.com/photos/20432916/pexels-photo-20432916/free-photo-of-laptop-in-a-classroom.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Digital CBSE school learning access">
+            <div class="pillar-body">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <h3>Digital Portal Sync</h3>
+              <p>E-book access codes and lab worksheet PDFs unlock inside your signed-in parent account.</p>
+              <a class="text-link" href="login.html">Portal sign in ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container cta-inner">
+        <div>
+          <span class="eyebrow light">NEED ASSISTANCE WITH TEXTBOOKS OR SIZES?</span>
+          <h2>Reach our Campus Store<br><em>support desk anytime.</em></h2>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-gold" href="contact.html">Contact store team ↗</a>
+          <a class="btn btn-light" href="admissions.html">Admissions guide</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="index.html">
+          <span class="brand-mark">G</span>
+          <span>GREENFIELD<small>INTERNATIONAL SCHOOL</small></span>
+        </a>
+        <p>CBSE Affiliated Senior Secondary School (Affiliation No. 1930842) nurturing thoughtful learners and compassionate leaders since 2004.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">Our school</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="products.html">Campus Products</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <p>18, Greenfield Avenue, Chennai, Tamil Nadu 600028</p>
+        <p>+91 44 4567 8900<br>hello@greenfieldschool.edu.in</p>
+      </div>
+      <div>
+        <h4>Follow our journey</h4>
+        <div class="socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6zm9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path></svg></a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"></path></svg></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"></path></svg></a>
+        </div>
+        <p class="footer-small">CBSE Admissions Open · 2026–27</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Greenfield International School. All rights reserved.</span>
+      <span>Affiliated to CBSE New Delhi · Designed for brighter beginnings.</span>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
